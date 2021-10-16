@@ -1,0 +1,88 @@
+.col-sm-9 h5 {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 3vw;
+    
+}
+
+@media screen and (max-width:900px) {
+    .col-sm-9 h5 {
+        font-size: 20px;
+    }
+}
+
+
+.col-sm-9 h6 {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-size: 1.9vw;
+    
+}
+
+@media screen and (max-width:900px) {
+    .col-sm-9 h6 {
+        font-size: 15px;
+    }
+}
+
+.col-sm-9 p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: 2vw;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:900px) {
+    .col-sm-9 p {
+        height: 200px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1211px) {
+    .col-sm-9 p {
+        font-size: 25px;
+    }
+}
+
+.card-aboutme {
+    margin: 40px;
+    background: rgba( 255, 255, 255, 0.25 )!important;
+    box-shadow: 2px 2px 15px #808080;
+    backdrop-filter: blur( 10px )!important;
+    -webkit-backdrop-filter: blur( 10px )!important;
+    border-radius: 55px 90px !important;
+}
+
+.btn {
+    margin-top: 3vw;
+    margin-left: 21vw;
+    margin-bottom: 2px;
+    box-shadow: 6px 4px 11px #666666;
+}
+
+.background-images {
+    height: 70vh;
+    width: 100vw;
+    background-image: url('../../assets/fondo13.jpg');
+    background-size: cover;
+    position: absolute;
+}
+
+.row-aboutme:hover {
+    backdrop-filter: blur(5px);
+    transition: 2s;
+}
+
+.row-aboutme {
+    height: 70vh;
+    align-items: center;
+    transition: 2s;
+}
+
+.col-sm-9 {
+    position: absolute;
+    align-items: center;
+}

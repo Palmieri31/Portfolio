@@ -1,0 +1,15 @@
+.container-portfolio{
+    height: 70vh;
+    align-items: center;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-image: url('../../assets/fondo3.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.row-portfolio {
+   margin: 70px !important;
+}
+
